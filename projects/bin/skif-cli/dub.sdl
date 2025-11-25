@@ -1,0 +1,6 @@
+name           "skif-cli"
+targetType     "executable"
+targetName     "skif-cli"
+sourcePaths    "src"
+mainSourceFile "src/main.d"
+dependency     "skif-workspace:skif-core" path="../../lib/skif-core"
