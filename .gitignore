@@ -1,3 +1,4 @@
+.vscode
 .dub
 *.exe
 *.lib
