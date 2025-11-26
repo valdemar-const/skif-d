@@ -1,5 +1,7 @@
 name       "skif-workspace"
 targetType "none"
 
-subPackage "projects/bin/skif-cli"
+subPackage "projects/lib/skif-core-api"
 subPackage "projects/lib/skif-core"
+
+subPackage "projects/bin/skif-cli"

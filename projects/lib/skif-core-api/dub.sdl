@@ -1,0 +1,4 @@
+name        "skif-core-api"
+targetType  "library"
+sourcePaths "src/skif/api"
+importPaths "src"
