@@ -12,7 +12,7 @@ struct Config
     }
 
     alias Mode = SumType!(Help, Dump);
-    Mode mode = Help.init;
+    Mode mode;
 }
 
 interface ConfigParser
