@@ -24,6 +24,10 @@ class ConfigParserGetopt : ConfigParser
 {
     override Config parse(string[] args)
     {
+        import std.stdio : writeln;
+
+        writeln("Parse config from args: ", args[1 .. args.length]);
+
         return Config.init;
     }
 }
