@@ -11,8 +11,9 @@ package class ComponentPool(T)
 {
     size_t emplace(T element)
     {
+        size_t back_idx = data_.length;
         data_ ~= element;
-        return data_.length - 1;
+        return back_idx;
     }
 
     bool erase(size_t id)
